@@ -1,5 +1,5 @@
 # Font Tools
-This project is a collection of Python scripts and HTML files that work with font files. It uses the fontTools Python library to manipulate TrueType font (.ttf) files.
+This project is a collection of Python scripts that work with font files. It uses the fontTools Python library to manipulate TrueType font (.ttf) files. The scripts in this project allow you to merge two font files into one, read the names in a font's "name" table, rename a font file, and replace a glyph in a font file with a glyph from another font file.
 
 ## Scripts
 
