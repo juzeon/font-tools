@@ -18,6 +18,10 @@ This script is used to rename a font file. It opens a font file, changes all nam
 
 This script is used to replace a glyph in a target font with a glyph from a source font. It opens a source font file and a target font file, finds a specific glyph in the source font, scales the glyph, and then replaces the corresponding glyph in the target font with the scaled glyph from the source font. The modified target font is then saved to a new file.
 
+### monospace.py
+
+This script is used to modify a font file to make it appear as a monospace font to software that uses it. It opens a font file, sets the 'isFixedPitch' attribute in the font's 'post' table to 1, which indicates that the font is monospace, and then saves the modified font to a new file. This does not actually change the glyph widths in the font, but makes software that uses the font think it is monospace.
+
 ## HTML Files
 ### font-test.html
 This HTML file is used to test the custom font created by merge.py. It includes a CSS @font-face rule that specifies the custom font file, and sets this custom font as the default font for all elements on the page.
